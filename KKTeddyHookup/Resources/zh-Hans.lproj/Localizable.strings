@@ -1,0 +1,49 @@
+
+// 基础
+//"Back"="返回";
+//"Cancel"="取消";
+//"Yes"="确定";
+//"Tips"="温馨提示";
+//"Are you sure to log out? \nYou will not be able to receive your feiends's messages!"="您确定要退出吗?\n退出之后将无法接收好友信息!";
+
+
+// TabBarItem
+
+"Message"="Message";
+"Recommend"="Recommend";
+"Video"="Video";
+"Discover"="Discover";
+"Mine"="Mine";
+"activePeple" = "ActivePeple";
+"shake" = "Shake";
+"drifter" = "Drifter";
+"hot" = "Hot";
+"delete"="delete";
+"stick" = "stick";
+"canel stack" = "canel stack";
+
+// 侧边栏
+"Rate Us"="Rate Us";
+"Share to Friends"="Share to Friends";
+"About"="About";
+"Logout"="Logout";
+"You have a message"= "You have new message";
+
+
+// 关于
+"Terms of Service"="Terms of Service";
+"Privacy Policy"="Privacy Policy";
+
+
+// 订阅页面
+"Premium"="Premium";
+"Restore"="Restore";
+
+"yday"="yday";
+"Mon" = "Mon";
+"Tues" = "Tues";
+"Wed" = "Wed";
+"Thur" = "Thur";
+"Fri" = "Fri";
+"Sat" = "Sat";
+"Sun" = "Sun";

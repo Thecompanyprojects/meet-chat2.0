@@ -1,0 +1,88 @@
+//
+//  PrefixHeader.pch
+//  XToolWhiteNoiseIOS
+//
+//  Created by PanZhi on 2018/7/25.
+//  Copyright © 2018年 KK. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#ifdef __OBJC__
+
+// 代码混淆宏定义一定最先导入
+#import "KKCodeObfuscation.h"
+
+
+#import "UtilsMacro.h"
+#import "ConfigMacro.h"
+#import "AFNetAPIClient.h"
+#import "Interface.h"
+
+// 系统库
+#import <CommonCrypto/CommonCrypto.h>
+
+// 第三方库
+#import <Bugly/Bugly.h>
+#import <IQKeyboardManager/IQKeyboardManager.h>
+#import <Masonry/Masonry.h>
+#import <AFNetworking/AFNetworking.h>
+#import <UIImageView+WebCache.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <YYModel/YYModel.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import <YYText/YYText.h>
+
+
+#import <XTOOLAPP_LIBRARY/XYAdConfiguration.h>
+#import <XTOOLAPP_LIBRARY/XYAdObject.h>
+#import <XTOOLAPP_LIBRARY/XYNetworkTools.h>
+#import <XTOOLAPP_LIBRARY/XYAdBaseManager.h>
+
+// Third
+#import "UIViewController+MMDrawerController.h"
+#import "MMDrawerController.h"
+#import "MMDrawerVisualState.h"
+
+// 分类头文件
+#import "XTCategoryHeader.h"
+
+#import "NotificationName.h"
+#import "wangHeader.h"
+#import "KKUserModel.h"
+
+#import "BaseViewController.h"
+#import "BaseNavigationController.h"
+
+
+#import "KKPaymentViewController.h"
+#import "APIResult.h"
+#import "XYLoadingHUD.h"
+#import "KKPhotoView.h"
+#import "TZImagePickerController.h"
+#import <NSString+AdBlowfish.h>
+#import "NSString+SKYExtension.h"
+#import "MJRefresh.h"
+#import "KKStatisticalManager.h"
+#import "SDWebImageDownloader.h"
+#import "MessageItem.h"
+#import "KKShowadModel.h"
+#import "KKShowsubscribeModel.h"
+#import "TTPaymentManager.h"
+#import "XYLogManager.h"
+#import "TimerGet.h"
+#import "UIButton+EnlargeHitArea.h"
+#import "KKMessageDetailController.h"
+#import "KKmessageModel.h"
+#import "KKSubalertView.h"
+#import "FMDB.h"
+#import "KKadvideoModel.h"
+#import "WJGAFCheckNetManager.h"
+#import "KKPayManager.h"
+#import "AppDelegate.h"
+#endif
+
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,3 @@
+
+// Localizable App Name是App在英语环境环境下显示的名称
+CFBundleDisplayName = "Teddy Hookup";
